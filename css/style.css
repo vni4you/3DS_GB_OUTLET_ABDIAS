@@ -6,11 +6,33 @@
     width: 400px;
     height: 400px;
     background-color: #ffb5e1;
-    border: dotted 5px #000000;
+    border: dotted 5px #993240;
     margin: 10% auto;
     padding: 70px;
 }
 
 .centeralizar{
     text-align: center
+}
+
+.container{
+
+}
+
+
+.produtos{
+    display:flex;
+    justify-content:center;
+}
+
+.produtos img {
+    width:180px;
+    height:200px;
+    border-radius:10px;
+
+
+}
+
+.produtos img:hover {
+    
 }
