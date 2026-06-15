@@ -26,14 +26,41 @@
 }
 
 .produtos img:hover{
-    transform: scale(1.07);
+    transform: scale(1.1);
 }
 
 .titulo_prod {
 	font-weight: bold;
-	font-family: Arial;
+	font-family: Calibri;
 	color: #4F4F4F;
-	padding: 12px;
+	padding-top: 10px;
 	display: flex;
 	justify-content: center;
+    text-align: center;
+    font-size: 11px;
+}
+
+.texto_prod {
+	font-family: Calibri;
+	color: #4F4F4F;
+	display: flex;
+	justify-content: center;
+    text-align: center;
+    font-size: 11px;
+}
+
+.btn_soma {
+     width:180px;
+ height:200px;
+ border-radius: 10px;
+}
+
+.btn_subtrai{
+        width:180px;
+height:200px;
+border-radius: 10px;
+}
+.qtd_prod {
+    display:flex;
+    justify-content:center;
 }
